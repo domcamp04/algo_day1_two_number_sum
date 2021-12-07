@@ -1,5 +1,5 @@
-# array = [3, 5, -4, 8, 11, 1, -1, 6]
-
+array = [3, 5, -4, 8, 11, 1, -1, 6]
+targetSum = 10
 
 def twoNumberSum(array, targetSum):
 	for i in range(len(array) -1 ):
@@ -10,4 +10,4 @@ def twoNumberSum(array, targetSum):
 				return[num1, num2]
 	return []
 
-print(twoNumberSum([3, 5, -4, 8, 11, 1, -1, 6], 10))
+print(twoNumberSum(array, targetSum))
